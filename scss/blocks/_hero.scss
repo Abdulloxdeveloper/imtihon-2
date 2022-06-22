@@ -1,0 +1,59 @@
+.scooter {
+    &__box {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../img/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-position-x: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__content {
+        position: relative;
+        h1 {
+            max-width: 500px;
+            width: 100%;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+        }
+
+        p {
+            max-width: 405px;
+            width: 100%;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            position: relative;
+            margin-left: 80px;
+        }
+        div{
+            width: 200px;
+            height: 15px;
+            background-image: url(../../img/bg-right.png);
+            position: absolute;
+            z-index: 1;
+            left: -110px;
+            top: 100px;
+        }
+        button{
+            width: 183px;
+            height: 55px;
+            background-color: #FCB72B;
+            color: white;
+            border: none;
+            margin-top: 40px;
+        }
+    }
+}
